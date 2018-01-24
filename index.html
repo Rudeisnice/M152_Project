@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta developer="nicolas utzinger">
+    <title>Suchmaschienen</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <nav id="nav">
+      <div id="navicons" onclick="menuaction()">
+        <a href="index.html"><img id="navlogo" alt="logo" src="assets/suchmashlogo.png"></a>
+        <h1 id="mblmenutxt" class="">Menu</h1>
+        <a href="javascript:void(0)" class="icon" id="menubtn"></a>
+        <!-- <button id="menubtn" onclick="openmenu"></button> -->
+      </div>
+      <div id="navbar" class="hide">
+        <a href="gregory/Main.html" class="navbtn">Gregory</a>
+        <a href="nico/index.html" class="navbtn">Nicolas</a>
+        <a href="tharmila/übermich.html" class="navbtn">Tharmila</a>
+        <a href="javascript:void(0)" onclick="menuaction()" id="closebtn">Menü schliessen</a>
+      </div>
+    </nav>
+    <!--<div id="slides">
+      <ul class="slides">
+        <li><img src="img/google_slide.png"></li>
+        <li><img src="img/bing_slide.png"></li>
+      </ul>
+    </div>-->
+    <div id="content">
+      <section id="slides">
+        <ul class="ownslide">
+          <li><img src="img/img1.jpeg"></li>
+          <li><img src="img/img2.jpeg"></li>
+          <li><img src="img/img3.jpeg"></li>
+          <li><img src="img/img4.jpeg"></li>
+          <li><img src="img/img5.jpeg"></li>
+        </ul>
+      </section>
+      <section id="video">
+        <h1>Suchmaschinen</h1>
+        <video controls preload="metadata">
+          <source src="assets/final_film_web.mp4" type="video/mp4">
+          Videoformat wird nicht unterstützt in deinem Browser.
+        </video>
+        <a href="https://youtu.be/OtK_8kkU_qw">Der Film gibt es auch in höherer Qualität</a>
+      </section>
+      <section id="konzept">
+        <h1>Konzept</h1>
+        <p>Das Konzept kann <a href="assets/Konzept_M152_Suchmaschinen.pdf" id="dwnldbtn">hier</a> heruntergeladen werden</p>
+      </section>
+    </div>
+    <div id="footer">
+      <ul id="links">
+        Links:
+        <a href="gregory/Main.html"><li>Gregory</li></a>
+        <a href="nico/index.html"><li>Nicolas</li></a>
+        <a href="tharmila/übermich.html"><li>Tharmila</li></a>
+      </ul>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/responsiveslides.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
